@@ -42,4 +42,9 @@
 --  5  A  10  816.51  600  2019-04-25  0.40  DAGC
 --
 --  >>> Escriba su codigo a partir de este punto <<<
+
 -- 
+select *
+from tbl1
+where K0='A'
+order by c14

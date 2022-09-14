@@ -41,3 +41,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+
+select *
+from tbl10
+where c02 in (100,600)
