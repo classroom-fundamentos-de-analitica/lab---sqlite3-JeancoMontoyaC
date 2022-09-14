@@ -24,7 +24,7 @@ def test_01():
     with open("pregunta_01.sql", encoding="utf-8") as file:
         query = file.read()
     assert pd.read_sql_query(query, conn).to_dict() == {"SUM(c12)": {0: 15137.63}}
-
+print(test_01())
 
 def test_02():
     conn, _ = load_data()
