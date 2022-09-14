@@ -43,5 +43,5 @@
 --  
 
 select *
-from tbl10
+from tbl0
 where c02 in (100,600)

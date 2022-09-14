@@ -43,7 +43,7 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-selct *
+select *
 from tbl1 
 where K0 not in ('A','B') and c13 not in (200,900)
 order by c14
